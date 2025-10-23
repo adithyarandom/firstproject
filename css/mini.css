@@ -1,0 +1,790 @@
+/* === Background Settings === */
+ /* body {
+  margin: 0;
+  padding: 0;
+  background: url('background1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+} */ */
+
+/* === Image Row === */
+ /* .image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 90px;
+} */ */
+
+/* === Image Container === */
+ /* .image-container {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05); */ */
+/* } */
+
+/* === Image === */
+ /* .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+} */ */
+
+/* === Description (Hover Text) === */
+ /* .description {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.image-container:hover .description {
+  transform: translateY(0);
+}
+
+
+body {
+  background-color: #0b1221;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subscribe-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.subscribe-section h2 {
+  color: #80f7f4;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  color: #a0a0a0;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.subscribe-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.subscribe-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #80f7f4;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribe-form button {
+  width: 100%;
+  background-color: #80f7f4;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #5de7e3;
+} */
+/* ===== Footer Section ===== */
+/* .footer {
+  background-color: #0b1221;
+  color: #ccc;
+  padding: 100px 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-title {
+  color: #80f7f4;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+} */
+
+/* .footer-column h4 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-column p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+} */
+
+/* .footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #80f7f4;
+}
+
+.privacy {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 0.9rem;
+  text-decoration: none;
+} */
+
+/* .privacy:hover {
+  color: #80f7f4;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.footer-bottom a {
+  color: #80f7f4;
+  text-decoration: none;
+} */
+/* .footer-column ul.social-links {
+  display: flex;
+  gap: 20px; space between links
+  list-style: none;
+  padding: 0;
+  justify-content: center; optional: center align
+} */
+
+/* .footer-column ul.social-links li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul.social-links li a:hover {
+  color: #80f7f4;
+}
+ */ */
+
+
+
+
+
+ /* General Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #fff;
+} */
+
+/* Subscribe Section */
+/* .subscribe-section {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: 80px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.subscribe-section h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #ffcc00;
+}
+
+.subscribe-section p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.subscribe-form {
+  display: inline-block;
+  max-width: 350px;
+  width: 100%;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.subscribe-form .checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.subscribe-form .checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+.subscribe-form .checkbox label {
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+
+.subscribe-form .next-btn {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #ffcc00;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form .next-btn:hover {
+  background-color: #e6b800;
+}
+
+/* Responsive */
+/* @media (max-width: 768px) {
+  .subscribe-section {
+    width: 90%;
+    padding: 40px 20px;
+  }
+
+  .subscribe-form input[type="email"] {
+    font-size: 16px;
+  }
+
+  .subscribe-form .checkbox label {
+    font-size: 15px;
+  }
+}
+ */ */
+
+
+
+ /* === Body & Background === */
+/* body {
+  margin: 0;
+  padding: 0;
+  background: url('background1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+} */
+
+/* === Image Row === */
+/* .image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 90px 20px;
+} */
+
+/* === Image Container === */
+/* .image-container { */
+  /* position: relative;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+} */
+
+/* === Image === */
+/* .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+} */
+
+/* === Description (Hover Text) === */
+/* .description {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.image-container:hover .description {
+  transform: translateY(0);
+} */
+
+/* === Subscribe Section (Page 1: Email Only) === */
+/* .subscribe-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.subscribe-section h2 {
+  color: #80f7f4;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  color: #a0a0a0;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.subscribe-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.subscribe-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #80f7f4;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+} */
+
+/* === Next Button === */
+/* .subscribe-form button {
+  width: 100%;
+  background-color: #80f7f4;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #5de7e3;
+} */
+
+/* === Checkbox Section (Page 2) === */
+/* .checkbox-page {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.checkbox-page h2 {
+  color: #80f7f4;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.checkbox-page p {
+  color: #a0a0a0;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.checkbox-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-form button {
+  width: 100%;
+  background-color: #80f7f4;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkbox-form button:hover {
+  background-color: #5de7e3;
+}
+
+/* === Footer === */
+/* .footer {
+  background-color: rgba(0,0,0,0.9);
+  color: #ccc;
+  padding: 40px 20px;
+} */
+
+/* .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  margin: 15px;
+}
+
+.footer-title {
+  color: #80f7f4;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-column h4 {
+  color: #80f7f4;
+  margin-bottom: 10px;
+} */
+
+/* .footer-column p,
+.footer-column a,
+.footer-column li {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+}
+
+.footer-column a:hover {
+  color: #80f7f4;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a0a0a0;
+} */ */
+
+/* === Responsive === */
+/* @media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+  }
+
+  .image-container {
+    width: 80%;
+    max-width: 300px;
+    height: 350px;
+  }
+
+  .subscribe-section,
+  .checkbox-page {
+    width: 90%;
+    padding: 40px 20px;
+  }
+} */
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+/* === Image Row === */
+.image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 90px 20px;
+}
+
+/* === Image Container === */
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+}
+
+/* === Image === */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* === Description (Hover Text) === */
+.description {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.image-container:hover .description {
+  transform: translateY(0);
+}
+
+/* === Subscribe Section === */
+.subscribe-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0,0,0,0.6); /* slightly darker for visibility */
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 450px;
+}
+
+.subscribe-section h2 {
+  color: #80f7f4;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  color: #d0d0d0;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.subscribe-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.subscribe-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribe-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #80f7f4;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.subscribe-form button {
+  width: 100%;
+  background-color: #80f7f4;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #5de7e3;
+}
+
+/* === Footer === */
+.footer {
+  background-color: rgba(0,0,0,0.8);
+  color: #ccc;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  margin: 15px;
+}
+
+.footer-title {
+  color: #80f7f4;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-column h4 {
+  color: #80f7f4;
+  margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column a,
+.footer-column li {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+}
+
+.footer-column a:hover {
+  color: #80f7f4;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+  }
+
+  .image-container {
+    width: 80%;
+    max-width: 300px;
+    height: 350px;
+  }
+
+  .subscribe-section {
+    width: 90%;
+    padding: 40px 20px;
+  }
+}
